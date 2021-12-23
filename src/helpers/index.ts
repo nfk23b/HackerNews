@@ -26,8 +26,7 @@ export const fetchAllData = (stories: number[]): Promise<StoryItemType[]> => {
                         time: localDate,
                         storyScore: storyData['score'],
                         author: userData['id'],
-                        authorScore: userData['karma'],
-                        image: ''
+                        authorScore: userData['karma']
                     };
 
                     storyItems.push(result);

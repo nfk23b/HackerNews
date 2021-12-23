@@ -1,7 +1,7 @@
 export type StoryItemType = {
     author: string;
     authorScore: number;
-    image: string;
+    image?: string;
     storyScore: number;
     time: string;
     title: string;

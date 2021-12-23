@@ -8,7 +8,7 @@ const getUser = async (id: string): Promise<IUserType> => {
     return await apiCall(`/user/${id}.json`);
 };
 
-const getTopStories = async () => {
+const getTopStories = async (): Promise<number[]> => {
     return await apiCall('topstories.json');
 };
 

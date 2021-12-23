@@ -1,4 +1,4 @@
-import { ILayoutProps } from '../../types';
+import { ILayoutProps } from 'src/types';
 
 import styles from './Layout.module.scss';
 

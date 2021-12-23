@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import Home from './Home';
-import { getTopStories } from '../api/Request';
-import { StoryItemType } from '../types';
-import { getRandomStories, fetchAllData } from '../helpers';
+import { getTopStories } from 'src/api/Request';
+import { StoryItemType } from 'src/types';
+import { getRandomStories, fetchAllData } from 'src/helpers';
+import Home from 'src/containers/Home';
 import Layout from 'src/containers/Layout';
 import Loader from 'src/components/Loader';
 

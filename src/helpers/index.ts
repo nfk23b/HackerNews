@@ -1,5 +1,5 @@
-import { getStory, getUser } from '../api/Request';
-import { StoryItemType } from '../types';
+import { getStory, getUser } from 'src/api/Request';
+import { StoryItemType } from 'src/types';
 
 export const getRandomStories = (stories: number[]): number[] => {
     return [...Array(10)].map(

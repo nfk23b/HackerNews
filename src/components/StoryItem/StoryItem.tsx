@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { StoryItemType } from '../../types';
+import { StoryItemType } from 'src/types';
 import img from './img.png';
 
 import styles from './StoryItem.module.scss';

@@ -1,4 +1,4 @@
-import { IStoryType, IUserType } from '../types';
+import { IStoryType, IUserType } from 'src/types';
 
 const getStory = async (id: number): Promise<IStoryType> => {
     return await apiCall(`/item/${id}.json`);

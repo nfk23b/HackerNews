@@ -1,6 +1,6 @@
 import { memo } from 'react';
-import { IHomeProps, StoryItemType } from '../../types';
-import StoryItem from '../../components/StoryItem';
+import { IHomeProps, StoryItemType } from 'src/types';
+import StoryItem from 'src/components/StoryItem';
 
 import styles from './Home.module.scss';
 

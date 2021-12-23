@@ -1,5 +1,5 @@
 import 'normalize.css';
-import '../styles/global.scss';
+import 'src/styles/global.scss';
 import { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {

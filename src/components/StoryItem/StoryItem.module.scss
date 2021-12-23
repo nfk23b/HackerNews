@@ -1,11 +1,13 @@
+@import 'src/styles/variables.scss';
+
 .story_item {
-	padding: 20px;
-	border: 1px solid #dadce0;
-	border-radius: 8px;
-	margin-bottom: 20px;
+	padding: 1.25rem;
+	border: 1px solid $color-gray;
+	border-radius: .5rem;
+	margin-bottom: 1.25rem;
 	display: flex;
 	box-sizing: border-box;
-	background-color: #fff;
+	background-color: $color-white;
 
 	&:last-child {
 		margin-bottom: 0;
@@ -19,15 +21,15 @@
 		font-weight: 700;
 		text-decoration: none;
 		display: flex;
-		font-size: 14px;
+		font-size: $font-size-base;
 
 		@media screen and (max-width: 767px) {
-			margin-top: 12px;
+			margin-top: $spacer-1;
 			order: 2;
 		}
 
 		&__karma {
-			margin: 0 0 0 16px;
+			margin: 0 0 0 $spacer;
 			font-weight: 500;
 		}
 	}
@@ -36,12 +38,12 @@
 		max-width: 200px;
 		
 		@media screen and (max-width: 767px) {
-			margin-bottom: 16px;
+			margin-bottom: $spacer;
 			max-width: 500px;
 		}
 		
 		img {
-			border-radius: 8px;
+			border-radius: .5rem;
 			height: 100%;
 			width: 100%;
 			object-fit: contain;
@@ -49,7 +51,7 @@
 	}
 
 	&__content {
-		margin-left: 16px;
+		margin-left: $spacer;
 		display: flex;
 		flex-direction: column;
 
@@ -59,9 +61,9 @@
 	}
 
 	&__title {
-		margin: 10px 0 16px;
+		margin: 0.625rem 0 $spacer;
 		text-decoration: none;
-		color: #262626;
+		color: $color-black;
 
 		&:hover {
 			text-decoration: underline;
@@ -74,8 +76,8 @@
 	}
 	
 	&__score {
-		font-size: 12px;
-		margin-left: 16px;
+		font-size: $font-size-sm;
+		margin-left: $spacer;
 	}
 
 	&__heading {
@@ -87,6 +89,6 @@
 	}
 
 	&__created {
-		font-size: 12px;
+		font-size: $font-size-sm;
 	}
 }

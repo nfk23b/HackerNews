@@ -13,7 +13,6 @@ const StoryItem = ({
     title,
     url
 }: StoryItemType) => {
-    console.log(img);
     return (
         <div className={styles.story_item}>
             <a className={styles.story_item__image} href={url} target='_blank'>
@@ -36,9 +35,7 @@ const StoryItem = ({
                     {title}
                 </a>
                 <div className={styles.story_item__author}>
-                    <p className={styles.story_item__author__name}>
-                        By: {author}
-                    </p>
+                    <p>By: {author}</p>
                     <p className={styles.story_item__author__karma}>
                         Karma: {authorScore}
                     </p>

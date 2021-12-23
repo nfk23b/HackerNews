@@ -1,0 +1,22 @@
+.container {
+	max-width: 1224px;
+	padding: 12px;
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	
+
+	@media screen and (max-width: 1224px){
+		max-width: 100%;
+	}
+
+	@media screen and (max-width: 767px) {
+		max-width: 542px;
+		flex-direction: column;
+	}
+}
+
+.wrapper {
+	margin-left: calc(100vw - 100%);
+}

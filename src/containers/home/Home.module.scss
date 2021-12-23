@@ -1,0 +1,10 @@
+.homepage {
+	width: 100%;
+	position: relative;
+
+	@media screen and (max-width: 767px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;	
+	}
+}
